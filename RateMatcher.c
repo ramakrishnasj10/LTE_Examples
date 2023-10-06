@@ -4,7 +4,7 @@
 #define OUTPUT_BITS 288  // Number of output bits after rate matching
 
 void rateMatcher(unsigned char inputBits[], unsigned char outputBits[]) {
-    // Simplified Rate Matching Algorithm (for demonstration purposes)
+    // Simplified Rate Matching Algorithm 
     int j = 0;
 
     for (int i = 0; i < INPUT_BITS && j < OUTPUT_BITS; i++) {
